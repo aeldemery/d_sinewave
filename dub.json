@@ -1,0 +1,6 @@
+{
+	"dependencies": {
+		"gtk-d:gtkd": "~>3.9.0"
+	},
+	"name": "sine-wave"
+}
