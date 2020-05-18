@@ -129,7 +129,10 @@ bool update()
     return true;
 }
 
-pragma(inline, true) double sineToPoint(int x, int width, int height)
+/* gives error on release build "cant inline funktion"
+pragma(inline, true)
+*/
+double sineToPoint(int x, int width, int height)
 {
     return (height / 2.0) * sin(x * 2 * PI / PERIOD) + (height / 2);
 }

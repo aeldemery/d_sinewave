@@ -1,6 +1,8 @@
 {
 	"dependencies": {
 		"gtk-d:gtkd": "~>3.9.0"
-	},
-	"name": "sine-wave"
+    },
+    "name": "sine-wave",
+    "description": "Drawing Area example using Gtkd",
+    "license": "MIT"
 }
